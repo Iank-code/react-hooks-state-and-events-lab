@@ -1,6 +1,7 @@
 import React from "react";
 
 function Item({ name, category }) {
+  // create usState accepting a boolean
   return (
     <li className="">
       <span>{name}</span>
