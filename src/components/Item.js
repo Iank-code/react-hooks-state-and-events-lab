@@ -5,8 +5,8 @@ function Item({ name, category }) {
   const [isAdded, setIsAdded] = useState(false)
 
   const cartValue = isAdded ? 'in-cart' : ''
-  const buttonClass = isAdded ? 'remove' : 'add'
-  const buttonName = isAdded ? 'Remove From Cart' : 'Add to Cart'
+  const buttonClass = isAdded ? "remove" : "add";
+  const buttonName = isAdded ? "Remove From Cart" : "Add to Cart";
   
   function addToCart(){
     setIsAdded(!isAdded)
